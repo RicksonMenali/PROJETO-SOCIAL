@@ -65,5 +65,20 @@ section#redes {
 
 }
 section#redes img:hover {
-    border: 2px solid rgba(255, 255, 255, 0)
+    border: 1px solid rgba(255, 255, 255, 0.192)
+}
+footer {
+    background-image: linear-gradient( to left, rgb(59, 59, 59), rgb(49, 49, 49));
+    color: white;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+footer a:hover {
+    color: rgb(161, 241, 215);
+    
 }
