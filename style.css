@@ -22,7 +22,7 @@ main {
 section#cell {
     
     position: relative;
-    top: 30%;
+    top: -10%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0) url(imagens/cell.png) no-repeat;
@@ -58,7 +58,7 @@ section#redes {
     transform: translate(-50%, -50%);
     
 
-    height: 90px ;
+    height: 50vh ;
     width: 430px;
     background-size: cover;
     
