@@ -15,27 +15,58 @@ html, body {
 main {
     height: 100vh;
     position: relative;
-    background: linear-gradient(to right, rgb(97, 95, 95), black)  no-repeat bottom center;
+    background: black url(imagens/fundo.png)  no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 section#cell {
     
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.219) url(imagens/cell.png) no-repeat;
+    background: rgba(255, 255, 255, 0) url(imagens/cell.png) no-repeat;
 
-    height: 800px ;
-    width: 394px;
+    height: 600px ;
+    width: 295px;
+    background-size: cover;
     
     
 }
 iframe#tela {
     position: relative;
-    top: 1.7vh;
-    left: 0.8vw;
-    height: 48vh;
-    width: 90%;
+    top: 19px;
+    left: 10px;
+    height: 562px;
+    width: 277px;
+    border-radius: 15px;
+}
+section#redes img {
+    
+    width: 52px;
+    margin: 4px;
+    border-radius: 42%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+    box-sizing: border-box;
+    
+}
+section#redes {
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    height: 90px ;
+    width: 430px;
+    background-size: cover;
+    
+     
+    
+    
+    
+}
+section#redes img:hover {
+    border: 2px solid rgba(255, 255, 255, 0)
 }
