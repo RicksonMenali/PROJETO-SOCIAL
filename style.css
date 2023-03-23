@@ -68,17 +68,19 @@ section#redes img:hover {
     border: 1px solid rgba(255, 255, 255, 0.192)
 }
 footer {
+    
     background-image: linear-gradient( to left, rgb(59, 59, 59), rgb(49, 49, 49));
-    color: white;
+    color: rgb(212, 212, 212);
     text-align: center;
+    font-size: 2vh;
 }
 footer a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 
 }
 footer a:hover {
-    color: rgb(161, 241, 215);
+    color: rgb(161, 212, 241);
     
 }
